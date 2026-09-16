@@ -96,7 +96,7 @@
     <!-- PRIVACY POLICY SECTION -->
     <section id="privacy">
         <h2>Privacy Policy</h2>
-        <p><strong>Last updated:</strong> May 12, 2026</p>
+        <p><strong>Last updated:</strong> September 16, 2026</p>
         
         <div class="highlight">
             <strong>Summary:</strong> NFP Calendar does not collect, store, or transmit any of your personal data to us or third parties. Your data stays on your device.
@@ -126,8 +126,14 @@
         <ul>
             <li><strong>Apple StoreKit</strong> – for in-app purchases (handled entirely by Apple)</li>
             <li><strong>Apple CloudKit/iCloud</strong> – for optional data sync (stored in your personal iCloud account)</li>
+            <li><strong>Apple HealthKit</strong> – for optional Apple Health sync (written to your device's Health data, never read)</li>
         </ul>
         <p>These are Apple's native frameworks, and any data processed through them is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</p>
+
+        <h3>Apple Health</h3>
+        <p>NFP Calendar can add what you chart to Apple Health on your device. It is <strong>off until you turn it on</strong>, and it is one-way: the app writes to Health and <strong>never reads anything from it</strong>.</p>
+        <p>When it is on, the app writes four kinds of entry — your menstrual flow, spotting, cervical mucus quality, and, only if you turn on a second separate switch, sexual activity. Apple asks your permission for these categories before anything is written, and you may allow some and deny others.</p>
+        <p>Nothing written to Apple Health is sent to us or to anyone else. It stays on your device, in your own Health data. You can turn the sync off at any time from the Apple Health screen in the app's Settings, and that screen also offers &ldquo;Remove my data from Health&rdquo; to delete what the app added. Data held in Apple Health is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</p>
 
         <h3>Data Export</h3>
         <p>You can export all your data at any time from the Settings screen. The exported JSON file is saved to a location of your choice and is not transmitted to us.</p>
